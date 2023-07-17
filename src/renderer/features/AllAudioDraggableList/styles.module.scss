@@ -1,0 +1,37 @@
+.wrapper{
+  background-color: var(--layer-one);
+  padding: 10px;
+  border-radius: 5px;
+  width: 30%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+
+  hr{
+    border-color: var(--font-sec);
+    margin: 10px auto;
+    width: 80%;
+  }
+
+  h1{
+    font-size: 1rem;
+    color: var(--font-pr);
+    width: 100%;
+    text-align: center;
+  }
+
+  .scroll_area{
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar{
+      background-color: var(--layer-one);
+      width: 8px;
+    }
+  
+    &::-webkit-scrollbar-thumb{
+      background-color: var(--layer-two);
+      border-radius: 100px;
+    }
+  }
+}

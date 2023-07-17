@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  overflow: hidden;
+}
+
+:root {
+  --layer-zero: #181818;
+  --layer-one: #212121;
+  --layer-two: #3d3d3d;
+
+  --font-pr: #ffffff;
+  --font-sec: #aaaaaa;
+
+  --accent: #0663e5;
+  --accent-dark: #0453c0;
+  --accent-opposite: #f44336;
+}

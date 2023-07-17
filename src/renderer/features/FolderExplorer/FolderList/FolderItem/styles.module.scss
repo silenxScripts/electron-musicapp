@@ -1,0 +1,21 @@
+.folder_item{
+  margin-bottom: 10px;
+  overflow: hidden;
+  background-color: var(--layer-two);
+  width: 90%;
+  display: flex;
+  padding: 5px 10px;
+  align-items: center;
+  border-radius: 5px;
+  min-height: 30px;
+
+  h1{
+    font-size: .8rem;
+    color: var(--font-pr);
+  }
+
+  .actions{
+    display: flex;
+    margin-left: auto;
+  }
+}

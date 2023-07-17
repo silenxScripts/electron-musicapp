@@ -1,0 +1,61 @@
+.wrapper {
+  background-color: var(--layer-one);
+  width: 50%;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+
+  form {
+    border-radius: 5px;
+    display: flex;
+
+    input {
+      flex: 1;
+      background-color: var(--layer-one);
+      border: 0;
+      &:focus {
+        outline: none;
+      }
+      color: var(--font-pr);
+      background-color: var(--layer-two);
+      padding: 2px 5px;
+      border-radius: 5px 0px 0px 5px;
+    }
+
+    button {
+      background-color: var(--accent-opposite);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 0;
+      padding: 2px;
+      border-radius: 0px 5px 5px 0px;
+    }
+  }
+
+  .scroll_list {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    flex: 1;
+    margin-top: 10px;
+
+    &::-webkit-scrollbar {
+      background-color: var(--layer-one);
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--layer-two);
+      border-radius: 100px;
+    }
+  }
+
+  h1 {
+    color: var(--font-pr);
+    font-size: 1rem;
+    margin-top: 10px;
+    width: 100%;
+    text-align: center;
+  }
+}

@@ -1,0 +1,21 @@
+.wrapper{
+  height: 12rem;
+  width: 100%;
+  padding: 1rem;
+
+  .player{
+    background-color: var(--layer-one);
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+
+    .controller{
+      height: 30%;
+      width: 100%;
+      display: flex;
+    }
+  }
+}

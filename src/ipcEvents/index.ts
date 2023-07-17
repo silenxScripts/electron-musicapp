@@ -1,0 +1,17 @@
+export const GET_USER_FOLDERS = 'getUserFolders';
+export const REMOVE_USER_FOLDER = 'removeUserFolder';
+export const ADD_USER_FOLDER = 'addUserFolder';
+export const DOES_PATH_EXISTS = 'doesPathExists';
+export const GET_AUDIO_FILES = 'getAudioFiles';
+export const DELETE_FILE = 'deleteFile';
+export const LOAD_AUDIO_FILE = 'loadAudioFile';
+export const GET_NEXT_AUDIO_FILE_PATH = 'getNextAudioFilePath';
+export const GET_PREV_AUDIO_FILE_PATH = 'getPrevAudioFilePath';
+export const GET_RANDOM_AUDIO_FILE_PATH = 'getRandomAudioFilePath';
+export const GET_ALL_AUDIO_FILES = 'getAllAudioFiles';
+export const GET_ALL_PLAYLISTS = 'getAllPlaylists';
+export const ADD_NEW_PLAYLIST = 'addNewPlaylist';
+export const REMOVE_PLAYLIST = 'removePlaylist';
+export const ADD_TO_PLAYLIST = 'addToPlaylist';
+export const REMOVE_FROM_PLAYLIST = 'removeFromPlaylist';
+export const GET_PLAYLIST_ITEMS = 'getPlaylistItems';

@@ -1,0 +1,59 @@
+.wrapper{
+  background-color: var(--layer-one);
+  width: 15rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .header{
+    display: flex;
+    align-items: center;
+    height: 3.5rem;
+    padding: 10px;
+    color: var(--font-pr);
+
+    h1{
+      font-size: 1.1rem;
+      margin-left: 10px;
+      margin-right: auto;
+    }
+  }
+
+  hr{
+    width: 80%;
+    border-color: var(--font-sec);
+    margin: 0px auto;
+    margin-bottom: 10px;
+  }
+
+  .file_list{
+    flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow-y: scroll;
+      overflow-x: hidden;
+      align-items: center;
+
+      h3{
+        color: var(--font-sec);
+      }
+  
+      &::-webkit-scrollbar{
+        background-color: var(--layer-one);
+        width: 8px;
+      }
+  
+      &::-webkit-scrollbar-thumb{
+        background-color: var(--layer-two);
+        border-radius: 100px;
+      }
+  }
+
+  .delete_drop_box{
+    transition: .3s;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,19 @@
+.wrapper{
+  background-color: var(--layer-two);
+  width: 95%;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+
+  h1{
+    font-size: .8rem;
+    color: var(--font-pr);
+    text-align: left;
+  }
+
+  p{
+    font-size: .7rem;
+    color: var(--font-sec);
+  }
+}
